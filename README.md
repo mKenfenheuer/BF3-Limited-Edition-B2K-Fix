@@ -2,6 +2,11 @@
 
 ## UPDATE - 2020-09-06
 
+Unfortunately GeorgeForse's fix did not work for me as Back to Karkand was downloaded with my base game and not reported correctly by Origin.
+The below scripts do fix this issue as the Back to Karkand expansion is added manually to the installed expansion packs.
+
+## UPDATE - 2020-09-06
+
 ### Looks like EA/DICE have fixed the issue on their end. Thank you to everyone who sent this over to various EA/DICE employees, and thank you to EA/DICE for fixing the issue officially. This script is no longer necessary, however I will leave it up as part of my portfolio.
 
 ## Disclaimer:
@@ -77,7 +82,7 @@ You will need the following browser extensions:
 
 Open your uBlock Origin Dashboard, click "Filter Lists", scroll down to the bottom of the page, click "Import" and add the following filter list:
 
-```https://raw.githubusercontent.com/MrGForse/BF3-Limited-Edition-B2K-Fix/master/script-blocklist```
+```https://raw.githubusercontent.com/mKenfenheuer/BF3-Limited-Edition-B2K-Fix/master/script-blocklist```
 
 Like this:
 
@@ -89,7 +94,7 @@ Then click "Apply changes".
 
 #### Please note: Installing random Tampermonkey scripts from unknown sources can be dangerous. Make sure that the author/source is someone you trust, or check through the script yourself to see what it does.
 
-Once you have installed and enabled the Tampermonkey extension for your browser, click [here](https://github.com/MrGForse/BF3-Limited-Edition-B2K-Fix/blob/master/FixBF3BL.user.js), then click "Raw". Tampermonkey will prompt you to install the script. Make sure you also enable the script after installation.
+Once you have installed and enabled the Tampermonkey extension for your browser, click [here](https://github.com/mKenfenheuer/BF3-Limited-Edition-B2K-Fix/raw/master/FixBF3BL.user.js), then click "Raw". Tampermonkey will prompt you to install the script. Make sure you also enable the script after installation.
 
 The script is only active on ```https://battlelog.battlefield.com/bf3/*```, and all it does is replace the original file with the one hosted here (githack CDN). The changes ONLY include the fix for the Expansion Check. I encourage you to compare the original file with this one.
 
