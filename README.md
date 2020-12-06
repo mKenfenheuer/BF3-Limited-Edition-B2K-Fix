@@ -1,6 +1,6 @@
 # Battlefield 3 Limited Edition Back To Karkand DLC Battlelog Fix
 
-## UPDATE - 2020-09-06
+## UPDATE - 2020-12-06
 
 Unfortunately GeorgeForse's fix did not work for me as Back to Karkand was downloaded with my base game and not reported correctly by Origin.
 The below scripts do fix this issue as the Back to Karkand expansion is added manually to the installed expansion packs.
